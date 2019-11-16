@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Agregar Nombre de Colores a Spinner</string>
+    <string name="Titulo">Bienvenido</string>
+    <string name="btnaddscreen">Ir a agregar colores</string>
+    <string name="titulo2">Registro de colores</string>
+    <string name="id">Id</string>
+    <string name="colorname">color</string>
+    <string name="addcolorname">Registrar Color</string>
+    <string name="back">Regresar</string>
+    <string name="acercade">Acerca de</string>
+    <string name="app">Agregar Datos a Spinner desde otra pantalla</string>
+    <string name="version">Version        1.0</string>
+    <string name="Asignatura">Desarrollo de Aplicaciones para Dispositivos Móviles</string>
+    <string name="Estudiante">Francisco Javier Jiménez Jaimes</string>
+    <string name="Grupo">Grupo:           7T11</string>
+    <string name="Docente">Docente: </string>
+    <string name="Dname">Victor Hugo Martínez de la O</string>
+    <string name="Est">Desarrollado por: </string>
+    <string name="tec">Tecnológico:  </string>
+    <string name="teso">Tecnológico de Estudios Superiores Oriente del Estado de México </string>
+
+
+</resources>

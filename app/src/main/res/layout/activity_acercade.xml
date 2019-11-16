@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcercadeActivity">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="491dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgcolor"
+                    android:layout_width="190dp"
+                    android:layout_height="128dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="75dp"
+                    android:layout_marginBottom="-1dp"
+                    android:contentDescription="@string/colorname"
+                    app:srcCompat="@drawable/color" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/acercade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acercade"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/desarrollador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Est"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Estudiante"
+                android:textColor="#074203"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/grup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Grupo"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/docente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Docente"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Dname"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tec"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/teso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/teso"
+                android:textSize="30sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="90dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="256dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/efectoback"
+                    android:onClick="back" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
